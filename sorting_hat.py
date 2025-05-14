@@ -9,6 +9,8 @@ if Q1 == 1:
 if Q1 == 2:
    Hufflepuff += 1  
    Slytherin += 1
+else:
+    print("Invalid input. Please enter 1 or 2.")
 
 print(Q2) When I’m dead, I want people to remember me as:
 print("   1) The Good")
@@ -16,7 +18,15 @@ print("   2) The Great")
 print("   3) The Wise")
 print("   4) The Bold")
 
-Q2 
+Q2 = int(input('Enter your answer (1-4): '))
+if Q2 == 1:
+    Hufflepuff += 2
+if Q2 == 2:    
+    Slytherin += 2
+if Q2 == 3:
+    Ravenclaw += 2
+    
+    
 
 # Display current points
 print("\nCurrent House Points:")
